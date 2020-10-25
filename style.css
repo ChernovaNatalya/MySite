@@ -79,3 +79,18 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+a.knopka {
+  /* position: absolute; */
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  display: block;
+  box-shadow: 0px 0px 10px rgb(152,15,0) inset;
+  text-align: center;
+} 
+a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
