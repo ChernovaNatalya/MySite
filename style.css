@@ -1,0 +1,81 @@
+.header {
+  border: 3px dotted #673AB7;
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.left {
+  border: 3px dashed #673AB7;
+  width: 150px;
+  height: 800px;
+  /* float: left; */
+  background: red;
+  position: absolute;
+}
+
+.right {
+  border: 3px solid #673AB7;
+  width: 150px;
+  height: 800px;
+  /* float: right; */
+  background: green;
+  position: absolute;
+  right: 0;
+}
+
+.center {
+  border: 3px double #673AB7;
+  /* width: 65%; */
+  height: 100%;
+  /* float: left; */
+  background: yellow;
+  position: absolute;
+  left: 150px;
+  right: 150px;
+  /*margin: 0 auto;*/
+}
+
+.footer {
+  border: 3px inset #673AB7;
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.footer1 {
+  width: 33%;
+  float: left;
+  height: 200px;
+}
+
+.footer2 {
+  width: 34%;
+  float: left;
+  height: 200px;
+}
+
+.footer3 {
+  width: 33%;
+  float: left;
+  height: 200px;
+}
+
+.box {
+  height: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: -moz-linear-gradient(top, rgb(2, 247, 255), rgb(255, 104, 149));
+  background: -webkit-linear-gradient(top, rgb(2, 247, 255), rgb(255, 104, 149));
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
