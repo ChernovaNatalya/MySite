@@ -7,7 +7,7 @@
 
 .left {
   border: 3px dashed #673AB7;
-  width: 150px;
+  width: 200px;
   height: 800px;
   /* float: left; */
   background: red;
@@ -16,7 +16,7 @@
 
 .right {
   border: 3px solid #673AB7;
-  width: 150px;
+  width: 200px;
   height: 800px;
   /* float: right; */
   background: green;
@@ -25,14 +25,14 @@
 }
 
 .center {
-  border: 3px double #673AB7;
+  border: 4px double #673AB7;
   /* width: 65%; */
   height: 100%;
   /* float: left; */
   background: yellow;
   position: absolute;
-  left: 150px;
-  right: 150px;
+  left: 200px;
+  right: 200px;
   /*margin: 0 auto;*/
 }
 
@@ -95,13 +95,16 @@ a.knopka {
 a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
 a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
 
+.topmenu li{
+list-style-type: none;
+}
 
 .submenu { 
 width: 100%;
 }
-li .submenu { 
+.left .submenu { 
 display: none; 
 }
-li ul .submenu:hover { 
+.left ul li:hover .submenu{ 
 display: block;
 }
