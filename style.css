@@ -94,3 +94,14 @@ a.knopka {
 } 
 a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
 a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+
+
+.submenu { 
+width: 100%;
+}
+li .submenu { 
+display: none; 
+}
+li ul .submenu:hover { 
+display: block;
+}
